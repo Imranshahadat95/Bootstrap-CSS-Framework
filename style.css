@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  --primary-font: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+/* Navbar */
+.menu_part {
+  background: #fff9f4;
+}
+
+.menu-bar img {
+  width: 291px;
+  height: 39px;
+}
+
+.menu_part ul li {
+  margin-left: 20px;
+}
+
+.menu_part ul li a {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+/* Banner  */
+.banner_content {
+  margin-top: 80px;
+}
+
+.banner_content h2 {
+  font-family: var(--heading-font);
+  font-size: 70px;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 700;
+  color: #fa804c;
+}
+
+.banner_content h2 > span {
+  color: #363958;
+}
+
+.banner_content p {
+  max-width: 368px;
+  font-family: var(--primary-font);
+  font-size: 16px;
+  color: #3e3e3e;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.banner_btn {
+  padding: 12px 30px;
+  background: linear-gradient(180deg, #3d4ff3 0%, #3543bc 100%);
+  color: #ffffff;
+  font-family: var(--primary-font);
+  border-radius: 10px;
+}
+
+/* Main  */
+.cmn_heading > h2 {
+  font-family: var(--heading-font);
+  font-size: 48px;
+  font-weight: 700;
+  color: #363958;
+  font-style: normal;
+}
+
+.casual_shoe img {
+  background: #f1f1f1;
+  border-radius: 20px;
+}
+
+.card_edit {
+  padding: 10px 10px;
+  border-radius: 20px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.card_content {
+  padding: 1rem 0;
+}
+
+.card_content h5 {
+  font-family: var(--primary-font);
+  font-style: 24px;
+  font-weight: 700;
+  font-style: normal;
+  color: #363958;
+}
+
+.card_content p {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  color: #3e3e3e;
+}
+
+.card_pricing h2 {
+  font-family: var(--primary-font);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 42px;
+  letter-spacing: 0em;
+  color: #fa804c;
+}
+
+.crd-footer {
+  background: transparent;
+  border-top: 0;
+}
